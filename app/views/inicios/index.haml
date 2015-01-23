@@ -1,0 +1,202 @@
+%nav.navbar.navbar-default
+  .container-fluid
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{:href => "#"} Brand
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          %a{:href => "#"}
+            Link
+            %span.sr-only (current)
+        %li
+          %a{:href => "#"} Link
+        %li.dropdown
+          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+            %li.divider
+            %li
+              %a{:href => "#"} One more separated link
+      %form.navbar-form.navbar-left{:role => "search"}
+        .form-group
+          %input.form-control{:placeholder => "Search", :type => "text"}
+        %button.btn.btn-default{:type => "submit"} Submit
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          %a{:href => "#"} Link
+        %li.dropdown
+          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+            Dropdown
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            %li
+              %a{:href => "#"} Action
+            %li
+              %a{:href => "#"} Another action
+            %li
+              %a{:href => "#"} Something else here
+            %li.divider
+            %li
+              %a{:href => "#"} Separated link
+  / /.navbar-collapse
+  / /.container-fluid
+
+.col-sm-12
+  %h1
+    Inclan
+    %small
+      Municipalidad
+
+.container-fluid
+  / left
+  .col-sm-3
+    %h2 Side
+    .panel.panel-default
+      .panel-heading Title
+      .panel-body
+        Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.
+    %hr
+      .panel.panel-default
+        .panel-heading Title
+        .panel-body Content here..
+      %hr
+        .panel.panel-default
+          .panel-heading Title
+          .panel-body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.
+        %hr
+          .panel.panel-default
+            .panel-heading Title
+            .panel-body Content here..
+          %hr
+  / /left
+  / center
+  .col-sm-6
+    .row
+      .col-xs-12
+        %h2 Article Heading
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+          Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+          dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+          Aliquam in felis sit amet augue.
+        %p.lead
+          %button.btn.btn-default Read More
+        %p.pull-right
+          %span.label.label-default keyword
+          %span.label.label-default tag
+          %span.label.label-default post
+        %ul.list-inline
+          %li
+            %a{:href => "#"} 2 Days Ago
+          %li
+            %a{:href => "#"}
+              %i.glyphicon.glyphicon-comment
+              2 Comments
+          %li
+            %a{:href => "#"}
+              %i.glyphicon.glyphicon-share
+              14 Shares
+    %hr
+      .row
+        .col-xs-12
+          %h2 Article Heading
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.
+          %p.lead
+            %button.btn.btn-default Read More
+          %p.pull-right
+            %span.label.label-default keyword
+            %span.label.label-default tag
+            %span.label.label-default post
+          %ul.list-inline
+            %li
+              %a{:href => "#"} 4 Days Ago
+            %li
+              %a{:href => "#"}
+                %i.glyphicon.glyphicon-comment
+                7 Comments
+            %li
+              %a{:href => "#"}
+                %i.glyphicon.glyphicon-share
+                56 Shares
+      %hr
+        .row
+          .col-xs-12
+            %h2 Article Heading
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+              Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+              dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+              Aliquam in felis sit amet augue.
+            %p.lead
+              %button.btn.btn-default Read More
+            %p.pull-right
+              %span.label.label-default keyword
+              %span.label.label-default tag
+              %span.label.label-default post
+            %ul.list-inline
+              %li
+                %a{:href => "#"} 1 Week Ago
+              %li
+                %a{:href => "#"}
+                  %i.glyphicon.glyphicon-comment
+                  4 Comments
+              %li
+                %a{:href => "#"}
+                  %i.glyphicon.glyphicon-share
+                  34 Shares
+        %hr
+  / /center
+  / right
+  .col-sm-3
+    %h2 Side
+    .panel.panel-default
+      .panel-heading Title
+      .panel-body
+        Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+        Aliquam in felis sit amet augue.
+    %hr
+      .panel.panel-default
+        .panel-heading Title
+        .panel-body Content here..
+      %hr
+        .panel.panel-default
+          .panel-heading Title
+          .panel-body
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.
+        %hr
+          .panel.panel-default
+            .panel-heading Title
+            .panel-body Content here..
+          %hr
+  / /right
+  %hr
+  / /container-fluid
